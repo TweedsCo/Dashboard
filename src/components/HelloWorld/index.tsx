@@ -1,6 +1,6 @@
-import React from "react";
+import React, { FC } from "react";
 
-const HelloWorld = () => (
+const HelloWorld: FC = () => (
     <>
         <h1>Hello World</h1>
 
